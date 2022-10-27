@@ -28,7 +28,7 @@ caseSensitive_numbs_PW(15)
 ##### ES modules
 
 ```
-import {caseSensitive_numbs_PW} from './node_modules/super-strong-password-generator/pw-generator.js';
+import {caseSensitive_numbs_PW} from './node_modules/super-strong-password-generator-es/pw-generator.js';
 //then just call the function
 caseSensitive_numbs_PW(15)
 ```
