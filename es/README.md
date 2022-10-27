@@ -46,4 +46,4 @@ There are multiple options for password generation.
 
 ## Issues
 
-Report any inconveniences if they are noticed. Thank you in advance.
+Report any inconveniences or bring suggestions for improvement. Thank you in advance.

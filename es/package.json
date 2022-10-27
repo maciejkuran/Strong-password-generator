@@ -1,7 +1,7 @@
 {
-  "name": "super-strong-password-generator",
-  "version": "1.0.4",
-  "description": "This library can be imported as Node.js modules",
+  "name": "super-strong-password-generator-es",
+  "version": "1.0.1",
+  "description": "This library can be imported as ES modules.",
   "main": "pw-generator.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,9 +11,9 @@
     "url": "git+ssh://git@github.com/maciejkuran/Strong-password-generator.git"
   },
   "keywords": [
+    "secure-password",
     "password-generator",
-    "strong-password-generator",
-    "secure-password"
+    "strong-password"
   ],
   "author": "Maciej Kuran-Janowski",
   "license": "MIT",
