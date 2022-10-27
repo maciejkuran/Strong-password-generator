@@ -6,7 +6,7 @@ Get a strong, unique, and secure password immediately.
 
 This library can be exported as Node.js modules or as ES modules.
 `npm i super-strong-password-generator --save`
-`npm i super-strong-password-generator-es –save`
+`npm i super-strong-password-generator-es –-save`
 
 \*To save as `devDependencies` use `--save-dev`
 
@@ -16,6 +16,9 @@ This library can be exported as Node.js modules or as ES modules.
 Const pw = require('super-strong-password-generator');
 //then just call the function
 pw.caseSensitive_numbs_PW(15)
+```
+
+```
 //Using @Parcel bundler
 import { caseSensitive_numbs_PW) from 'super-strong-password-generator'
 //then just call the function
