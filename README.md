@@ -13,11 +13,11 @@ This library can be exported as Node.js modules or as ES modules.
 ##### Node.js modules
 
 ```
-Const pw = require(‘super-strong-password-generator’);
+Const pw = require('super-strong-password-generator');
 //then just call the function
-pw. caseSensitive_numbs_PW(15)
+pw.caseSensitive_numbs_PW(15)
 //Using @Parcel bundler
-import { caseSensitive_numbs_PW) from ‘super-strong-password-generator’
+import { caseSensitive_numbs_PW) from 'super-strong-password-generator'
 //then just call the function
 caseSensitive_numbs_PW(15)
 ```
@@ -25,7 +25,7 @@ caseSensitive_numbs_PW(15)
 ##### ES modules
 
 ```
-import {caseSensitive_numbs_PW} from ‘./node_modules/super-strong-password-generator/pw-generator.js;
+import {caseSensitive_numbs_PW} from './node_modules/super-strong-password-generator/pw-generator.js';
 //then just call the function
 caseSensitive_numbs_PW(15)
 ```
@@ -44,4 +44,3 @@ There are multiple options for password generation.
 ## Issues
 
 Report any inconveniences if they are noticed. Thank you in advance.
-# Super-strong-password-generator
