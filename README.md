@@ -44,5 +44,4 @@ There are multiple options for password generation.
 ## Issues
 
 Report any inconveniences if they are noticed. Thank you in advance.
-# fdfdf
 # Super-strong-password-generator
