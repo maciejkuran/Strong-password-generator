@@ -15,7 +15,7 @@ This library can be imported as Node.js modules or as ES modules.
 ##### Node.js modules
 
 ```
-Const pw = require('super-strong-password-generator');
+const pw = require('super-strong-password-generator');
 //then just call the function
 pw.caseSensitive_numbs_PW(15)
 ```
