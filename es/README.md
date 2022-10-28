@@ -20,7 +20,7 @@ pw.caseSensitive_numbs_PW(15)
 
 ```
 //Using @Parcel bundler
-import { caseSensitive_numbs_PW) from 'super-strong-password-generator'
+import {caseSensitive_numbs_PW} from 'super-strong-password-generator'
 //then just call the function
 caseSensitive_numbs_PW(15)
 ```
@@ -35,7 +35,7 @@ caseSensitive_numbs_PW(15)
 
 ```
 //Using @Parcel bundler
-import { caseSensitive_numbs_PW) from 'super-strong-password-generator-es'
+import {caseSensitive_numbs_PW} from 'super-strong-password-generator-es'
 //then just call the function
 caseSensitive_numbs_PW(15)
 ```
