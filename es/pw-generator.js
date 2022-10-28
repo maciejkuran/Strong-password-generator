@@ -1,10 +1,12 @@
-"use strict";
+("use strict");
 
 const alpha = Array.from({ length: 26 }, (val = 65, i) => val + i);
 const alphabetLowercase = alpha.map((x) => String.fromCharCode(x)).map((x) => x.toLowerCase());
 
 //prettier-ignore
-const specialCharacters = ['!', '?', '@', '#', '$', '%', '^', '&', '*', '>', '<', '(', ')', '{', '}', '[', ']'];
+const sC = ['!', '?', '@', '#', '$', '%', '^', '&', '*', '>', '<', '(', ')', '{', '}', '[', ']', '/', "|", '-', '_', "=", "+", "*", "~", "`"];
+//prettier-ignore
+const specialCharacters = [...sC, ...sC, ...sC, ...sC, ...sC, ...sC, ...sC, ...sC, ...sC, ...sC, ...sC, ...sC, ...sC, ...sC, ...sC, ...sC];
 
 const randomNb = (max) => {
   return Math.trunc(Math.random() * max);
@@ -50,7 +52,7 @@ const lowercase_PW = (length) => {
 };
 
 //____________________________________________
-//1) Output = string: lowercased password, simply provide the password length as argument
+//2) Output = string: lowercased password, simply provide the password length as argument
 const caseSensitive_PW = (length) => {
   const upperLetters = lowercase_PW(length).split("");
   const indexes = randomNumbs(upperLetters);
@@ -61,29 +63,28 @@ const caseSensitive_PW = (length) => {
 };
 
 //____________________________________________
-//2) Output = string: Case-sensitive password, simply provide the password length as argument
+//3) Output = string: Case-sensitive password, simply provide the password length as argument
 const caseSensitive_numbs_PW = (length) => {
   const caseSensitive = caseSensitive_PW(length).split("");
   const indexes = randomNumbs(caseSensitive);
 
-  indexes.forEach((i) => caseSensitive.splice(i, 1, String(randomNb(11))));
+  indexes.forEach((i) => caseSensitive.splice(i, 1, String(randomNb(10))));
 
   return caseSensitive.join("");
 };
 
 //____________________________________________
-//3) Output = string: Case-sensitive with special characters password, simply provide the password length as argument
+//4) Output = string: Case-sensitive with special characters password, simply provide the password length as argument
 const caseSensitive_SpecialCharacters_PW = (length) => {
   const caseSensitiveNumbs = caseSensitive_PW(length).split("");
   const indexes = randomNumbs(caseSensitiveNumbs);
-
   indexes.forEach((i) => caseSensitiveNumbs.splice(i, 1, specialCharacters[i]));
 
   return caseSensitiveNumbs.join("");
 };
 
 //____________________________________________
-//4) Output = string: Case-sensitive with numbers and special characters password, simply provide the password length as argument
+//5) Output = string: Case-sensitive with numbers and special characters password, simply provide the password length as argument
 const caseSensitive_Numbs_SpecialCharacters_PW = (length) => {
   const caseSensitiveNumbs = caseSensitive_numbs_PW(length).split("");
   const indexes = randomNumbs(caseSensitiveNumbs);
