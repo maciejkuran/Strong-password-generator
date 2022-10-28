@@ -33,6 +33,13 @@ import {caseSensitive_numbs_PW} from './node_modules/super-strong-password-gener
 caseSensitive_numbs_PW(15)
 ```
 
+```
+//Using @Parcel bundler
+import { caseSensitive_numbs_PW) from 'super-strong-password-generator-es'
+//then just call the function
+caseSensitive_numbs_PW(15)
+```
+
 ## Options
 
 The function takes one argument – the length of the password.
