@@ -39,14 +39,19 @@ const randomNumbs = (pw) => {
 
 //____________________________________________
 //1) Output = string: lowerCased password, simply provide the password length as argument
-const output = [];
+let output = [];
+let holder = [];
 
 const lowercase_PW = (length) => {
   let index = randomNb(alphabetLowercase.length);
+  if (holder.length === length) {
+    output = holder;
+    holder = [];
+    return output.join("");
+  }
 
-  if (output.length === length) return output.join("");
-
-  output.push(alphabetLowercase[index]);
+  holder.push(alphabetLowercase[index]);
+  output = [];
 
   return lowercase_PW(length);
 };
