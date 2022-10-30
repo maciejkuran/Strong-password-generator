@@ -1,6 +1,6 @@
 {
   "name": "super-strong-password-generator",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "This library can be imported as Node.js modules",
   "main": "pw-generator.js",
   "scripts": {
