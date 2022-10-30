@@ -2,9 +2,9 @@
 
 Get a strong, unique, and secure password immediately.
 
-### BUG FIX! Update your package to version 2.0
+### BUG FIX! Update your package to version 2.0.0
 
-Versions below 2.0 contain a bug. The recursive function `lowercase_PW` stored generated letters in a global variable. Without reloading the browser, this variable held all the characters. Therefore, the recursive function did not allow generation of new characters. This is because a global variable already met the function condition. That's put simply.
+Versions below 2.0.0 contain a bug. The recursive function `lowercase_PW` stored generated letters in a global variable. Without reloading the browser, this variable held all the characters. Therefore, the recursive function did not allow generation of new characters. This is because a global variable already met the function condition. That's put simply.
 
 All other functions rely on the recursive function `lowercase_PW`. <b>In version 2.0, I eliminated this bug.</b> The generated characters are unique every time whether you reload the browser or not. The global variables in the recursive function clean themselves to an empty array.
 
