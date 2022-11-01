@@ -1,5 +1,7 @@
 # Super strong password generator –npm
 
+<p align="center"><img width="100" src="/password-generator.png"></p>
+
 Get a strong, unique, and secure password immediately.
 
 ### BUG FIX! Update your package to version 2.0.0

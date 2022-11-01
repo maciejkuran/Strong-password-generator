@@ -62,7 +62,7 @@ const caseSensitive_PW = (length) => {
   const upperLetters = lowercase_PW(length).split("");
   const indexes = randomNumbs(upperLetters);
 
-  indexes.forEach((i) => upperLetters.splice(i, 1, upperLetters[i].toUpperCase()));
+  indexes.forEach((i) => upperLetters.splice(i, 1, upperLetters[i]?.toUpperCase()));
 
   return upperLetters.join("");
 };
