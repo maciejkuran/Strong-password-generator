@@ -6,7 +6,7 @@ Get a strong, unique, and secure password immediately.
 
 [🔐Super Strong Password Generator - ONLINE](https://maciejkuran.com/strong-password-generator)
 
-### BUG FIX! Update your package to version 2.0.0
+### BUG FIX! Update your package to version 2.0.0 or higher
 
 Versions below 2.0.0 contain a bug. The recursive function `lowercase_PW` stored generated letters in a global variable. Without reloading the browser, this variable held all the characters. Therefore, the recursive function did not allow generation of new characters. This is because a global variable already met the function condition. That's put simply.
 
