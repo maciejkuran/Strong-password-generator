@@ -1,4 +1,4 @@
-# Super strong password generator –npm
+# Super strong password/id/key generator –npm
 
 <p align="center"><img width="100" src="/password-generator.png"></p>
 
